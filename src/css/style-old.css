@@ -16,15 +16,6 @@ button {
     height: 50px;
     font-size: 21px;
     cursor: pointer;
-    border-radius: 5px;
-}
-
-.button-shadow {
-    box-shadow: 1px 1px 11px #9494ee;
-}
-
-button:hover {
-    background-color: #0a417c;
 }
 
 p {
@@ -40,14 +31,9 @@ p {
 .tooltip {
     height: 0px;
     overflow: hidden;
-    transition-duration: 5s;
 }
 
-.tooltip_show {
-    height: 300px;
-}
-
-/* .tooltip_animation {
+.tooltip_animation {
     animation-name: tooltip;
     animation-duration: 5s;
     animation-fill-mode: forwards;
@@ -68,4 +54,4 @@ p {
     100% {
         height: 300px;
     }
-} */
+}
